@@ -95,5 +95,8 @@ Common networking devices and their types used in large companies today:
 
 This table reflects the diverse set of devices commonly used in modern large-scale networks.
 
+<hr>
 
+![alt text](https://github.com/HackBugs/Computer-Networking/blob/main/Sheet.png)
 
+<hr>
