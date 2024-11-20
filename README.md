@@ -45,3 +45,20 @@
 > ## Networking Devices
 
 ![alt text](https://wirelessnews.in/wp-content/uploads/2024/06/types_of_network_devices.png)
+
+<hr>
+
+> ## Networking Cables
+
+![alt text](https://networkdrops.com/wp-content/uploads/2019/11/four-different-types-cabling-2019-708x1024.jpg)
+
+<hr>
+
+![alt text](https://ccnatutorials.in/wp-content/uploads/2023/09/Types-of-Cables-in-Packet-Tracer-.png)
+
+<hr>
+
+![alt text](https://media.licdn.com/dms/image/v2/D4D22AQGvv47N9qy_yA/feedshare-shrink_800/feedshare-shrink_800/0/1715799803954?e=1735171200&v=beta&t=MIOdgvn8ncv7C7w51e3TMG__slTFhW0WOwWlQVzbC7k)
+
+
+
