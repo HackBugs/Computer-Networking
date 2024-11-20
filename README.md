@@ -39,3 +39,9 @@
 > ## Network Topology
 
 ![alt text](https://www.techtarget.com/rms/onlineimages/6_types_of_network_topology-f.png)
+
+<hr>
+
+> ## Networking Devices
+
+![alt text](https://wirelessnews.in/wp-content/uploads/2024/06/types_of_network_devices.png)
