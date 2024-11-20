@@ -4,6 +4,8 @@
 
 <hr>
 
+> ## OSI Model (Open Systems Interconnection Model)
+
 ![alt text](https://s7280.pcdn.co/wp-content/uploads/2018/06/osi-model-7-layers-1.png)
 
 <hr>
@@ -20,6 +22,8 @@
 
 <hr>
 
+> ## IP address classes and their ranges
+
 ![alt text](https://www.tecmint.com/wp-content/uploads/2021/04/Classes-of-IP-Addresses.png)
 
 <hr>
@@ -32,3 +36,6 @@
 
 <hr>
 
+> ## Network Topology
+
+![alt text](https://www.techtarget.com/rms/onlineimages/6_types_of_network_topology-f.png)
