@@ -1,4 +1,8 @@
-# Computer-Networking
+> # Computer-Networking
+
+![alt text](https://github.com/HackBugs/Computer-Networking/blob/main/Networking%20Job%20Discription.png)
+
+<hr>
 
 ![alt text](https://s7280.pcdn.co/wp-content/uploads/2018/06/osi-model-7-layers-1.png)
 
