@@ -42,6 +42,10 @@
 
 <hr>
 
+![alt text](https://github.com/HackBugs/Computer-Networking/blob/main/Network-Topology-Projects.png)
+
+<hr>
+
 > ## Networking Devices
 
 ![alt text](https://wirelessnews.in/wp-content/uploads/2024/06/types_of_network_devices.png)
