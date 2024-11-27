@@ -231,7 +231,7 @@ Both tools help protect your system by restricting unwanted network traffic, but
 
 <hr>
 
-![alt text](https://github.com/HackBugs/Computer-Networking/blob/main/Port1.jpeg)
+![alt text](https://github.com/HackBugs/Computer-Networking/blob/main/Port1.png)
 
 <hr>
 
