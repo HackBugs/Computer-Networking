@@ -100,3 +100,55 @@ This table reflects the diverse set of devices commonly used in modern large-sca
 ![alt text](https://github.com/HackBugs/Computer-Networking/blob/main/Sheet.png)
 
 <hr>
+
+Below is a comparative list of essential Windows and Linux commands often used in professional IT and networking environments for tasks like system monitoring, network diagnostics, and system administration. These commands are organized in two columns: **Windows Commands**, **Linux Commands**, and a third column for their **Purpose/Use Case**.
+
+| **Windows Command**           | **Linux Command**              | **Purpose/Use Case**                                                                 |
+|--------------------------------|--------------------------------|-------------------------------------------------------------------------------------|
+| `ipconfig`                    | `ifconfig` / `ip addr`         | Check or configure IP addresses of network interfaces.                            |
+| `ping <IP/hostname>`          | `ping <IP/hostname>`           | Test connectivity to another device or server.                                     |
+| `tracert <hostname>`          | `traceroute <hostname>`        | Trace the route packets take to a destination.                                     |
+| `netstat -an`                 | `netstat -tunap`               | Show active network connections and listening ports.                               |
+| `tasklist`                    | `ps aux`                      | Display all running processes.                                                    |
+| `taskkill /PID <pid>`         | `kill <pid>`                  | Kill a specific process by its Process ID.                                        |
+| `nslookup <domain>`           | `dig <domain>` / `nslookup`    | Perform DNS lookups to resolve domain names.                                      |
+| `chkdsk`                      | `fsck`                        | Check and repair file system integrity.                                           |
+| `systeminfo`                  | `uname -a` / `hostnamectl`     | Display system information like OS version, architecture, and hostname.           |
+| `shutdown /s`                 | `shutdown -h now`             | Shutdown the system.                                                              |
+| `shutdown /r`                 | `reboot`                      | Reboot the system.                                                                |
+| `whoami`                      | `whoami`                      | Display the current logged-in user.                                               |
+| `net user`                    | `adduser` / `useradd`         | Manage user accounts.                                                             |
+| `net use`                     | `mount`                       | Map network drives or mount file systems.                                         |
+| `cls`                         | `clear`                       | Clear the terminal screen.                                                        |
+| `dir`                         | `ls`                          | List files and directories in a directory.                                        |
+| `cd <path>`                   | `cd <path>`                   | Change the current directory.                                                     |
+| `copy <src> <dest>`           | `cp <src> <dest>`             | Copy files or directories.                                                        |
+| `move <src> <dest>`           | `mv <src> <dest>`             | Move or rename files or directories.                                              |
+| `del <filename>`              | `rm <filename>`               | Delete files.                                                                     |
+| `rmdir <directory>`           | `rm -r <directory>`           | Remove directories.                                                               |
+| `find /i "<text>" <file>`     | `grep "<text>" <file>`         | Search for text within files.                                                     |
+| `type <filename>`             | `cat <filename>`              | Display the contents of a file.                                                   |
+| `fc <file1> <file2>`          | `diff <file1> <file2>`         | Compare the contents of two files.                                                |
+| `diskpart`                    | `fdisk`                       | Partition a disk.                                                                 |
+| `format <drive>`              | `mkfs`                        | Format a disk or drive.                                                           |
+| `set`                         | `export`                      | Set environment variables.                                                        |
+| `wmic`                        | Various commands (e.g., `lsblk`, `lshw`) | Query system information such as hardware and software configurations.             |
+| `sc query`                    | `systemctl status`            | Check the status of a service.                                                    |
+| `sc start <service>`          | `systemctl start <service>`   | Start a service.                                                                  |
+| `sc stop <service>`           | `systemctl stop <service>`    | Stop a service.                                                                   |
+| `netsh interface show`        | `nmcli device show`           | Display network interface configurations.                                         |
+| `arp -a`                      | `arp`                         | Display the ARP table (MAC to IP mapping).                                        |
+| `route print`                 | `route -n`                    | Display or modify the routing table.                                              |
+| `powershell`                  | `bash`                        | Launch the shell for scripting and advanced tasks.                                |
+
+---
+
+### **Common Use Cases in the Workplace**
+- **Networking Diagnostics:** `ping`, `traceroute`, `nslookup`, `netstat`
+- **System Monitoring:** `tasklist`, `ps`, `systemctl status`
+- **File Management:** `dir`, `ls`, `cp`, `rm`
+- **User/Service Management:** `net user`, `adduser`, `systemctl`
+- **Automation:** Use of PowerShell scripts in Windows and Bash scripts in Linux.
+
+### **Tip for Regular Use**
+Create shell scripts (Linux) or batch files/PowerShell scripts (Windows) to automate repetitive tasks, which is a common practice in enterprise environments.
