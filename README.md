@@ -222,3 +222,19 @@ Windows does not have a direct equivalent of UFW, but the **Windows Defender Fir
 - **Windows Firewall**: When managing local or domain-connected Windows machines in enterprise or personal environments.
 
 Both tools help protect your system by restricting unwanted network traffic, but they cater to their respective operating systems.
+
+<he>
+
+> ## TCP/UDP Port Number Lists and why we use of this -
+
+![alt text](https://github.com/HackBugs/Computer-Networking/blob/main/Port.jpeg)
+
+<hr>
+
+![alt text](https://github.com/HackBugs/Computer-Networking/blob/main/Port1.jpeg)
+
+<hr>
+
+![alt text](https://github.com/HackBugs/Computer-Networking/blob/main/Port2.jpeg)
+
+<hr>
