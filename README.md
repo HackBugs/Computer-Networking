@@ -152,3 +152,73 @@ Below is a comparative list of essential Windows and Linux commands often used i
 
 ### **Tip for Regular Use**
 Create shell scripts (Linux) or batch files/PowerShell scripts (Windows) to automate repetitive tasks, which is a common practice in enterprise environments.
+
+<hr>
+
+### **UFW (Uncomplicated Firewall) in Linux and Its Equivalent in Windows**
+
+#### **What is UFW in Linux?**
+- **UFW (Uncomplicated Firewall)** is a user-friendly front-end for managing the firewall on Linux systems.
+- It simplifies the configuration of `iptables`, which is a powerful but complex tool for managing network traffic rules.
+- UFW is used to **allow or deny network traffic** based on specific rules, making it easier to secure a system.
+
+**Common UFW Commands:**
+1. Enable UFW:
+   ```
+   sudo ufw enable
+   ```
+2. Check UFW status:
+   ```
+   sudo ufw status
+   ```
+3. Allow traffic on a port (e.g., SSH on port 22):
+   ```
+   sudo ufw allow 22
+   ```
+4. Deny traffic on a port:
+   ```
+   sudo ufw deny 80
+   ```
+5. Disable UFW:
+   ```
+   sudo ufw disable
+   ```
+
+#### **Equivalent of UFW in Windows**
+Windows does not have a direct equivalent of UFW, but the **Windows Defender Firewall** serves a similar purpose. It allows or denies network traffic through specific rules and is configurable through both a graphical user interface (GUI) and the command line.
+
+**Windows Firewall Commands (via Command Prompt or PowerShell):**
+1. Enable the firewall:
+   ```
+   netsh advfirewall set allprofiles state on
+   ```
+2. Check the firewall status:
+   ```
+   netsh advfirewall show allprofiles
+   ```
+3. Allow traffic on a port (e.g., port 22 for SSH):
+   ```
+   netsh advfirewall firewall add rule name="Allow SSH" protocol=TCP dir=in localport=22 action=allow
+   ```
+4. Block traffic on a port:
+   ```
+   netsh advfirewall firewall add rule name="Block HTTP" protocol=TCP dir=in localport=80 action=block
+   ```
+5. Disable the firewall:
+   ```
+   netsh advfirewall set allprofiles state off
+   ```
+
+#### **Key Differences**
+| **Feature**            | **Linux (UFW)**                      | **Windows (Defender Firewall)**       |
+|-------------------------|--------------------------------------|---------------------------------------|
+| **Ease of Use**         | Command-line-based, lightweight      | GUI and command-line options available |
+| **Default State**       | Often disabled                      | Enabled by default                    |
+| **Integration**         | Built into most Linux distros        | Integrated with Windows OS            |
+| **Advanced Features**   | Built on top of `iptables`           | Offers advanced settings in GUI       |
+
+#### **When to Use:**
+- **UFW**: When managing Linux servers or desktops, especially for DevOps, cloud environments, or web servers like Apache/Nginx.
+- **Windows Firewall**: When managing local or domain-connected Windows machines in enterprise or personal environments.
+
+Both tools help protect your system by restricting unwanted network traffic, but they cater to their respective operating systems.
